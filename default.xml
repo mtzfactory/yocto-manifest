@@ -5,6 +5,7 @@
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="bmwcarit" fetch="git://github.com/bmwcarit" />
+  <remote name="qt5" fetch="git://github.com/meta-qt5" />
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -17,6 +18,6 @@
   <project name="meta-gumstix-extras" revision="refs/heads/daisy" remote="gumstix" path="poky/meta-gumstix-extras" />
   <project name="meta-ti" revision="refs/heads/daisy"  remote="yocto" path="poky/meta-ti" />
   <project name="meta-ros" revision="821427d23adb33674da76dc34d8ab6983590fcd4"  remote="bmwcarit" path="poky/meta-ros" />
+  <project name="meta-qt5" revision="refs/heads/daisy" remote="qt5" path="poky/meta-qt5" />
 
 </manifest>
-
